@@ -1,5 +1,5 @@
 # Blindness
-Site web dédié à l'accessibilité numérique des déficiences visuelles.
+Site web dédié à l'accessibilité numérique des déficients visuels.
 
 
 Sources :
