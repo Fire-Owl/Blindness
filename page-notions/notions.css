@@ -1,6 +1,3 @@
-
-
-
 :root{
     --primary-color: #0000;
     --secondary-color: #ffff;
@@ -10,24 +7,73 @@
 
 @font-face {
     font-family: "Gotham";
-    src: url("/fonts/GothamLight.ttf"),
-    url("/fonts/GothamBook.ttf"),
-    url("/fonts/GothamBold.ttf"),
-    url("/fonts/Gotham-Medium.otf"),
+    src: url("../assets/Fonts/GothamBold.ttf"),
+    url("../assets/Fonts/GothamBook.ttf"),
+    url("../assets/Fonts/GothamLight.ttf"),
+    url("../assets/Fonts/"),
     }
 
 .main > div{
     border: solid 1px red;
 }
-.main > div >div{
-    border: solid 1px red;
-}
 
-.main{
-    display: grid;
-    grid-template-rows: auto;
-}
+body{
+    background-color: black;
+    color: white;
+    font-family: "Gotham", sans-serif;
+    background-image: url(/Blindness/assets/pictures/weelchair.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    }
 
-.main__title{
-    grid-column-start: 2;
-}
+    main{
+    margin : 5% 15%;
+    }
+    
+    h1{
+    color: red;
+    font-size: 5rem;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 5%;
+    
+    }
+    
+    h2{
+    font-size: 1,5rem;
+    }
+    .conteneur{
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    }
+    p{
+    display: flex;
+    max-width: 40rem;
+    }
+    
+    
+    footer{
+    display: flex;
+    justify-content: center;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    }
+    ul{
+    display: flex;
+    flex-direction: row;
+    }
+    li{
+    display: flex;
+    flex-direction: column;
+    margin: 0 1rem;
+    
+    
+    }
+    a{
+    text-decoration: none;
+    color: white;
+    }
+    
