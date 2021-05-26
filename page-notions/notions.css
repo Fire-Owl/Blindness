@@ -1,0 +1,33 @@
+
+
+
+:root{
+    --primary-color: #0000;
+    --secondary-color: #ffff;
+    --third-color:#ed1d27;
+}
+
+
+@font-face {
+    font-family: "Gotham";
+    src: url("/fonts/GothamLight.ttf"),
+    url("/fonts/GothamBook.ttf"),
+    url("/fonts/GothamBold.ttf"),
+    url("/fonts/Gotham-Medium.otf"),
+    }
+
+.main > div{
+    border: solid 1px red;
+}
+.main > div >div{
+    border: solid 1px red;
+}
+
+.main{
+    display: grid;
+    grid-template-rows: auto;
+}
+
+.main__title{
+    grid-column-start: 2;
+}
