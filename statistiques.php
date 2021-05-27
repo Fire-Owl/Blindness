@@ -4,42 +4,25 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Outils à disposition</title>
+    <title>Statistiques</title>
     <link rel="stylesheet" href="outils.css">
 </head>
 <body>
 
     <div class="main">
         <div class="main__title">
-            <h1>III. Outils à disposition</h1>
+            <h1>IV. Statistiques</h1>
         </div>
 
-        <div class="main__article--top">
-            <div class="main__article--title">
-                <h2>La loupe</h2>
-            </div>
-                
-        <div class="main__article--top-left">
-            <p>Le handicap est une notion complexe et évolutive. Il désigne <span>l'incapacité </span>d'un individu à vivre et agir pleinement dans son environnement, en raison de déficiences physiques, mentales ou sensorielles.</p>
+        <div id="charts">
+            <canvas id="browser" width="400" height="400"></canvas>
+            <canvas id="screen-reader" width="400" height="400"></canvas>
+            <canvas id="switch-tools" width="400" height="400"></canvas>
+            <canvas id="type-screen" width="400" height="400"></canvas>
+            <canvas id="phone-tools" width="400" height="400"></canvas>
         </div>
+    
 
-        <div class="main__article--top">
-            <div class="main__article--title">
-                <h2>La plage braille</h2>
-            </div>
-                
-        <div class="main__article--top-left">
-            <p>Elle fait office <span>d'écran </span>pour le non-voyant. Sous forme rectangulaire comme un clavier, le dispositif électro-mécanique affiche en temps réel des caractères brailles. Elle comporte tout de même un défaut d'envergure, la nécessité de savoir lire du braille.</p>
-        </div>
-
-        <div class="main__article--top">
-            <div class="main__article--title">
-                <h2>La synthèse vocale</h2>
-            </div>
-                
-        <div class="main__article--top-left">
-            <p>L'utilisateur <span>écoute</span> le contenu par l'intermédiaire d'une voix de synthèse. Elle représente une énorme avancée dans l'accessibilité numérique.</p>
-        </div>
 
     </div>
 
@@ -53,6 +36,11 @@
         </nav>
     
     </footer>
+
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@3.2.1/dist/chart.min.js"></script>
+    <script src="main.js"></script>
 </body>
 </html>
 

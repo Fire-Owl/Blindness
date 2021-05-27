@@ -4,41 +4,59 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Outils à disposition</title>
+    <title>Bonnes pratiques</title>
     <link rel="stylesheet" href="outils.css">
 </head>
 <body>
 
     <div class="main">
         <div class="main__title">
-            <h1>III. Outils à disposition</h1>
+            <h1>IV. Bonnes pratiques</h1>
         </div>
 
         <div class="main__article--top">
             <div class="main__article--title">
-                <h2>La loupe</h2>
+                <h2>La sobriété</h2>
             </div>
                 
         <div class="main__article--top-left">
-            <p>Le handicap est une notion complexe et évolutive. Il désigne <span>l'incapacité </span>d'un individu à vivre et agir pleinement dans son environnement, en raison de déficiences physiques, mentales ou sensorielles.</p>
+            <p>On réduit au strict minimum les effets dynamiques. On doit pouvoir visualiser <span>mentalement</span> les pages web. Dans le même ordre d'idée, on évite les ouvertures d’onglet externe qui pourrait perdre l'utilisateur.</p>
         </div>
 
         <div class="main__article--top">
             <div class="main__article--title">
-                <h2>La plage braille</h2>
+                <h2>Un contenu structuré</h2>
             </div>
                 
         <div class="main__article--top-left">
-            <p>Elle fait office <span>d'écran </span>pour le non-voyant. Sous forme rectangulaire comme un clavier, le dispositif électro-mécanique affiche en temps réel des caractères brailles. Elle comporte tout de même un défaut d'envergure, la nécessité de savoir lire du braille.</p>
+            <p>Cela se traduit par <span>l'uniformisation</span> des mises en pages du site. La personne va gagner en aisance au fur et à mesure de la navigation. Toujours dans un souci de clarté, on s'assure de bien hiérarchiser les titres.</p>
         </div>
 
         <div class="main__article--top">
             <div class="main__article--title">
-                <h2>La synthèse vocale</h2>
+                <h2>Une syntaxe rigoureuse </h2>
             </div>
                 
         <div class="main__article--top-left">
-            <p>L'utilisateur <span>écoute</span> le contenu par l'intermédiaire d'une voix de synthèse. Elle représente une énorme avancée dans l'accessibilité numérique.</p>
+            <p>Chaque balise html a une <span>fonction précise</span>, qu'il est nécessaire de respecter pour assurer le bon fonctionnement des synthèses vocales.</p>
+        </div>
+
+        <div class="main__article--top">
+            <div class="main__article--title">
+                <h2>Des palliatifs textuels</h2>
+            </div>
+                
+        <div class="main__article--top-left">
+            <p>Le label aria est un attribut qui permet aux développeurs d'indiquer une <span>alternative textuelle</span> à des contrôles visuels. De même pour l’attribut alt qui constitue une alternative aux images.</p>
+        </div>
+
+        <div class="main__article--top">
+            <div class="main__article--title">
+                <h2>Une police adaptée</h2>
+            </div>
+                
+        <div class="main__article--top-left">
+            <p>L’utilisation d’une police d'écriture <span>contrastée</span> offre une meilleure lecture et réduit la fatigue oculaire. La taille et l'épaisseur des caractères sont aussi à prendre en considération.</p>
         </div>
 
     </div>

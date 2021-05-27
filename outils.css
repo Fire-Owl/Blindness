@@ -24,12 +24,14 @@ body{
     background-color: black;
     color: white;
     font-family: "Gotham-Book";
-    background-image: url(/Blindness/assets/pictures/weelchair.jpg);
+    background-image: url(/Blindness/assets/pictures/blindfolded_girl.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
 }
-
+span{
+    color: red;
+}
 .main{
     display: flex;
     flex-direction: column;
@@ -99,12 +101,28 @@ a{
     .main__article--top-left{
         justify-content: center;
         width: 100%;
+        
     }
 }
 
+/* graphiques */
+
+#charts{
+    margin: 5% auto;
+    padding: 10%;
+   background-color: white;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+}
+#browser{
+    width: 376px;
+}
+
+
+
 
 /* 
-
 
 
 h1{
