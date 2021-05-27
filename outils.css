@@ -1,21 +1,112 @@
+
 @font-face {
-    font-family: "Gotham";
-    src: url("/fonts/Gotham-Light.otf") format("opentype"), url("/fonts/Gotham-Book.otf") format("opentype"), url("/fonts/Gotham-Medium.otf") format("opentype"), url("/fonts/Gotham-Bold.otf") format("opentype");
+    font-family: "Gotham-Light";
+    src: url("fonts/Gotham-Light.otf") format("opentype");
     }
 
+@font-face {
+    font-family: "Gotham-Book";
+    src: url("fonts/Gotham-Book.otf") format("opentype");
+    }
+
+@font-face {
+    font-family: "Gotham-Medium";
+    src: url("fonts/Gotham-Medium.otf") format("opentype");
+    }
+
+@font-face {
+    font-family: "Gotham-Bold";
+    src: url("fonts/Gotham-Bold.otf") format("opentype");
+    }
+
+    
 body{
     background-color: black;
     color: white;
-    font-family: "Gotham", sans-serif;
+    font-family: "Gotham-Book";
     background-image: url(/Blindness/assets/pictures/weelchair.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
 }
 
-main{
-    margin : 5% 15%;
+.main{
+    display: flex;
+    flex-direction: column;
+    margin: 5% 15%;
+    line-height: 1.5em;
+    }
+    
+.main__title{
+    color: red;
+    font-size: 2rem;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: flex-start;
+    font-family: "Gotham-Bold";
+    }
+    
+.main__article--top{
+    display: flex;
+    flex-direction: column;
+    }
+.main__article--title{
+    font-size: 1.5rem;
+    font-family: "Gotham-Light";
+    }
+    
+.main__article--top-left{
+    width: 50%;
+    font-family: "Gotham-Light";
+    }
+
+    
+footer{
+    display: flex;
+    justify-content: center;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
 }
+ul{
+    display: flex;
+    flex-direction: row;
+}
+
+li{
+    display: flex;
+  flex-direction: column;
+  margin: 0 1rem;  
+}
+
+a{
+    text-decoration: none;
+   color: white;
+}
+
+
+@media screen and (max-width:800px) {
+    .main__title{
+        justify-content: center;
+        font-size: 1rem;
+    }
+  
+    .main__article--title{
+        display: flex;
+        justify-content: center;
+        font-size: 1rem;
+    }
+
+    .main__article--top-left{
+        justify-content: center;
+        width: 100%;
+    }
+}
+
+
+/* 
+
+
+
 h1{
     color: red;
     font-size: 5rem;
@@ -61,3 +152,4 @@ a{
     text-decoration: none;
    color: white;
 }
+ */
