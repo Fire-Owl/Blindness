@@ -1,0 +1,148 @@
+:root{
+    --primary-color: #0000;
+    --secondary-color: #ffff;
+    --third-color:#ed1d27;
+}
+
+/* *{
+    border: red 1px solid;
+} */
+
+@font-face {
+    font-family:'GothamBold';
+    src: url('../assets/Fonts/GothamBold.ttf');
+}
+@font-face {
+    font-family: 'GothamBook';
+    src:url('../assets/Fonts/GothamBook.ttf');
+}
+@font-face {
+    font-family: 'GothamLight';
+    src:url('../assets/Fonts/GothamLight.ttf');
+}
+
+body{
+    background-color: black;
+    color: white;
+    background-image: url(/Blindness/assets/pictures/weelchair\ \(heavy\).png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    }
+
+.main{
+    display: flex;
+    flex-direction: column;
+    margin: 5% 15%;
+    line-height: 1.5em;
+    
+    }
+
+.main__title{
+    color: red;
+    font-size: 2rem;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: flex-start;
+    font-family: 'GothamBold';
+
+    
+}
+
+.main__article--center{
+    display: flex;
+    justify-content: flex-end;
+    font-family: 'GothamLight';
+}
+
+.main__article--top{
+    display: flex;
+    flex-direction: column;
+}
+.main__article--title{
+    font-size: 1.5rem;
+    font-family: 'GothamLight';
+}
+
+.main__article--top-left{
+    width: 50%;
+    font-family: 'GothamLight';
+}
+
+.main__article--center-right{
+    display: flex;
+    width: 50%;
+    font-family: 'GothamLight';
+}
+
+.main__article--bottom-left{
+    width: 50%;
+    font-family: 'GothamLight';
+}
+ 
+.main__footer{
+    display: flex;
+    justify-content: center;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    font-family: 'GothamLight';
+    }
+    ul{
+    display: flex;
+    flex-direction: row;
+    }
+    li{
+    display: flex;
+    flex-direction: column;
+    margin: 0 1rem;
+    }
+    a{
+    text-decoration: none;
+    color: white;
+    }
+span{
+    color: var(--third-color);
+}
+
+@media screen and (max-width: 760px){
+    .main{
+        text-align: justify;
+    }
+    .main__title{
+        color: red;
+        font-size: 1rem;
+        text-transform: uppercase;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 2rem;
+    }
+    .main__article--title{
+        font-size: 1rem;
+    }
+    .main__article--top-left{
+        width: 100%;
+    }
+    .main__article--center-right{
+        display: flex;
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+    .main__article--bottom-left{
+        width: 100%;
+        margin-top: 2rem;
+    }
+    .main__footer{
+        display: flex;
+/*         margin-top: 5vh;
+        margin-bottom: 5vh; */
+        justify-content: flex-start;
+        line-height: 2em;
+        }
+        ul{
+        display: flex;
+        flex-direction: column;
+        }
+        li{
+        display: flex;
+        }
+} ;
