@@ -6,13 +6,13 @@ let chartBrowser = new Chart(ctxBrowser, {
         datasets: [{
             data: [16, 165, 144, 51, 28, 76, 25],
             backgroundColor: [
-                'rgba(255, 99, 132, 0.2)',
-                'rgba(54, 162, 235, 0.2)',
-                'rgba(255, 206, 86, 0.2)',
-                'rgba(75, 192, 192, 0.2)',
-                'rgba(153, 102, 255, 0.2)',
-                'rgba(255, 159, 64, 0.2)',
-                'rgba(48, 129, 96, 0.2)'
+                'rgba(255, 99, 132)',
+                'rgba(54, 162, 235)',
+                'rgba(255, 206, 86)',
+                'rgba(75, 192, 192)',
+                'rgba(153, 102, 255)',
+                'rgba(255, 159, 64)',
+                'rgba(48, 129, 96)'
             ]
         }]
     }
@@ -27,8 +27,8 @@ let chartScreenReader = new Chart(ctxScreenReader, {
             label: 'Utilisation du lecteur d\'écran (512 personnes aveugles)',
             data: [487, 25],
             backgroundColor: [
-                'rgba(255, 99, 132, 0.2)',
-                'rgba(54, 162, 235, 0.2)'
+                'rgba(255, 99, 132)',
+                'rgba(54, 162, 235)'
             ]
         }]
     }
@@ -43,9 +43,9 @@ let chartSwitchTools = new Chart(ctxSwitchTools, {
             labels : 'Utilisation du lecteur d\'écran différent du travail et de la maison',
             data : [203,237,70],
             backgroundColor: [
-                'rgba(255, 99, 132, 0.2)',
-                'rgba(75, 192, 192, 0.2)',
-                'rgba(54, 162, 235, 0.2)'
+                'rgba(255, 99, 132)',
+                'rgba(75, 192, 192)',
+                'rgba(54, 162, 235)'
             ]
         }]
     }
@@ -59,12 +59,12 @@ let chartTypeScreen = new Chart(ctxTypeScreen, {
         datasets: [{
             data: [190, 141,14,34,0,133],
             backgroundColor: [
-                'rgba(255, 99, 132, 0.2)',
-                'rgba(54, 162, 235, 0.2)',
-                'rgba(255, 206, 86, 0.2)',
-                'rgba(75, 192, 192, 0.2)',
-                'rgba(153, 102, 255, 0.2)',
-                'rgba(255, 159, 64, 0.2)'
+                'rgba(255, 99, 132)',
+                'rgba(54, 162, 235)',
+                'rgba(255, 206, 86)',
+                'rgba(75, 192, 192)',
+                'rgba(153, 102, 255)',
+                'rgba(255, 159, 64)'
             ]
         }]
     }

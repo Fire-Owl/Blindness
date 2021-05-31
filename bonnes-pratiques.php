@@ -18,6 +18,7 @@
             <div class="main__article--title">
                 <h2>La sobriété</h2>
             </div>
+        </div>
                 
         <div class="main__article--top-left">
             <p>On réduit au strict minimum les effets dynamiques. On doit pouvoir visualiser <span>mentalement</span> les pages web. Dans le même ordre d'idée, on évite les ouvertures d’onglet externe qui pourrait perdre l'utilisateur.</p>
@@ -27,6 +28,7 @@
             <div class="main__article--title">
                 <h2>Un contenu structuré</h2>
             </div>
+        </div>
                 
         <div class="main__article--top-left">
             <p>Cela se traduit par <span>l'uniformisation</span> des mises en pages du site. La personne va gagner en aisance au fur et à mesure de la navigation. Toujours dans un souci de clarté, on s'assure de bien hiérarchiser les titres.</p>
@@ -36,6 +38,7 @@
             <div class="main__article--title">
                 <h2>Une syntaxe rigoureuse </h2>
             </div>
+        </div>
                 
         <div class="main__article--top-left">
             <p>Chaque balise html a une <span>fonction précise</span>, qu'il est nécessaire de respecter pour assurer le bon fonctionnement des synthèses vocales.</p>
@@ -45,6 +48,7 @@
             <div class="main__article--title">
                 <h2>Des palliatifs textuels</h2>
             </div>
+        </div>
                 
         <div class="main__article--top-left">
             <p>Le label aria est un attribut qui permet aux développeurs d'indiquer une <span>alternative textuelle</span> à des contrôles visuels. De même pour l’attribut alt qui constitue une alternative aux images.</p>
@@ -54,6 +58,7 @@
             <div class="main__article--title">
                 <h2>Une police adaptée</h2>
             </div>
+        </div>
                 
         <div class="main__article--top-left">
             <p>L’utilisation d’une police d'écriture <span>contrastée</span> offre une meilleure lecture et réduit la fatigue oculaire. La taille et l'épaisseur des caractères sont aussi à prendre en considération.</p>
@@ -64,8 +69,8 @@
 <footer>
         <nav>
             <ul>
-                <li><a href="#">Suivant</a></li>
-                <li><a href="#">Précédent</a></li>
+                <li><a href="outils.php">Précédent</a></li>
+                <li><a href="statistiques.php"></a></li>
                 <li><a href="#">Retour à la navigation</a></li>
             </ul>
         </nav>

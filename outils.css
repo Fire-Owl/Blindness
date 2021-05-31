@@ -36,7 +36,6 @@ span{
     display: flex;
     flex-direction: column;
     margin: 5% 15%;
-    line-height: 1.5em;
     }
     
 .main__title{
@@ -60,6 +59,7 @@ span{
 .main__article--top-left{
     width: 50%;
     font-family: "Gotham-Light";
+    line-height: 1.5em;
     }
 
     
@@ -106,68 +106,58 @@ a{
 }
 
 /* graphiques */
-
-#charts{
-    margin: 5% auto;
-    padding: 10%;
-   background-color: white;
-    width: 500px;
-    display: flex;
-    flex-direction: column;
+.charts__title{
+    
+    margin-bottom: 3rem;
 }
-#browser{
-    width: 376px;
-}
-
-
-
-
-/* 
-
-
-h1{
-    color: red;
-    font-size: 5rem;
-    text-transform: uppercase;
-    display: flex;
-    justify-content: flex-start;
-    margin-bottom: 5%;
-   
-}
-
-h2{
-    font-size: 1,5rem;
-}
-.conteneur{
-    display: flex;
+.charts__container{
     width: 100%;
-    justify-content: flex-start;
-}
-p{
-    display: flex;
-    max-width: 40rem;
-}
-
-
-footer{
     display: flex;
     justify-content: center;
-    margin-top: 5vh;
-    margin-bottom: 5vh;
+    align-items: center;
+    margin-bottom: 6rem;
 }
-ul{
-    display: flex;
-    flex-direction: row;
+
+.charts__item{
+width: 40%;
+
+background-color: rgba(255, 255, 255, 0.9);
+margin: auto;
+padding: 2rem;
 }
-li{
-    display: flex;
-  flex-direction: column;
-  margin: 0 1rem;
- 
+
+.charts__item--paragraph{
+    background-color:rgba(0, 0, 0, 0.9);
+}
+
+
+@media screen and (max-width:800px) {
+    .charts__title{
+        text-align: center;
+    }
+    .charts__container{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 1rem;
+    }
+    .charts__item{
+        width: 80%;
+        text-align: center;
+        background-color: rgba(255, 255, 255, 0.9);
+        margin: auto;
+        padding: 1rem;
+        }
     
+        .charts__item--paragraph{
+            background-color:rgba(0, 0, 0, 0.9);
+        }
+
+        .charts__item--inverse{
+            order: 2;
+        }
+  
 }
-a{
-    text-decoration: none;
-   color: white;
-}
- */
+
