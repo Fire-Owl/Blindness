@@ -1,13 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="notions.css">
-    <title>Notions</title>
-</head>
-<body>
+<?php include "../includes/header.php";?>
 
 <div class="main">
         <div class="main__title"><h1>I. Notions</h1></div>
@@ -32,7 +23,7 @@
 <div class="main__footer">
         <ul>
             <a href="deficiences-visuelles.php" ><li>Suivant</li></a>
-            <a href="#" ><li>Précédent</li></a>
+            <a href="../index.php" ><li>Précédent</li></a>
             <a href="#" ><li>Retour à la navigation</li></a>
         </ul>
     </div>

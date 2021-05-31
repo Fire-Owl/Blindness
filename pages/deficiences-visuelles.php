@@ -1,14 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="notions.css">
-    <title>deficiences-visuelles</title>
-</head>
-<body>
-
+<?php include "../includes/header.php";?>
 <div class="main">
         <div class="main__title"><h1>II. Déficiences visuelles</h1></div>
 
@@ -28,16 +18,25 @@
 
         <div class="main__article--bottom">
             <div class="main__article--title"><h2>Obstacles numériques</h2></div>
-            <div class="main__article--bottom-left"><p>Les personnes en situation de handicap sont régulièrement confrontées à des barrières. On peut citer en guise d'exemples :
-</p></div>
+            <div class="main__article--bottom-left"><p>Les personnes en situation de handicap sont régulièrement confrontées à des barrières. On peut citer en guise d'exemples :</p>
+            <div class="main__article--bottom-list">
+                <p>Une navigation rendue complexe en raison d’un contenu inadapté.<br>
+                Une mise en pages non-intuitive avec la présence de contenu non transcriptible tel que des schémas, des cartes, des images.<br>
+                Une documentation inadaptée, qui ne s’adresse pas aux déficients visuels.<br>
+                Des interactions limitées dans le temps, qui contraignent l'utilisateur à agir vite, une tâche peu aisée pour un malvoyant. <br>
+                Un investissement de temps, bien supérieur à celui d'un utilisateur lambda. </p>
+            </div>
         </div>
+
 </div>
+
+
 <div class="main__footer">
         <ul>
-            <a href="#" ><li>Suivant</li></a>
-            <a href="notions.php" ><li>Précédent</li></a>
+            <a href="#" ><li>Précédent</li></a>
+            <a href="notions.php" ><li>Suivant</li></a>
             <a href="#" ><li>Retour à la navigation</li></a>
         </ul>
     </div>
 </body>
-</html>
+</html>a

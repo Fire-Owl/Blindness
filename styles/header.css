@@ -3,9 +3,9 @@
     src: url("../assets/fonts/Gotham-Light.otf") format("opentype"), url("../assets/fonts/Gotham-Light.otf") format("opentype"), url("../assets/fonts/Gotham-Light.otf") format("opentype"), url("../assets/fonts/Gotham-Light.otf") format("opentype");
 }
 
-* {
+/* * {
     margin: 0;
-}
+} */
 
 a {
     text-decoration: none;
@@ -16,9 +16,9 @@ a:hover {
     color: white;
 }
 
-html {
+/* html {
     font-size: 62.5%;
-}
+} */
 
 .red {
     color: #b50000;
