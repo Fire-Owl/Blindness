@@ -1,11 +1,12 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="fr">
 <head>
     <title>Blindness</title>
-    <link rel="stylesheet" type="text/css" href="styles/header.css">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Un site sur l'accessibilité optimisé pour les malvoyants. Créé par les stagiaires de l'ACS.">
+    <link rel="stylesheet" type="text/css" href="styles/header.css">
+    <link rel="stylesheet" type="text/css" href="styles/index.css">
 </head>
 
 <body>
