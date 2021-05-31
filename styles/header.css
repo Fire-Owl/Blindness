@@ -7,8 +7,21 @@
     margin: 0;
 }
 
+a {
+    text-decoration: none;
+}
+
+a:hover {
+
+    color: white;
+}
+
 html {
     font-size: 62.5%;
+}
+
+.red {
+    color: #b50000;
 }
 
 .nav {
@@ -21,7 +34,8 @@ html {
     max-height: 5rem;
     margin: 1rem 0 1rem 4rem;
 }
-.logo, .logo-text{
+
+.logo, .logo-text {
     position: relative;
     z-index: 1;
     display: block;
@@ -29,7 +43,7 @@ html {
     cursor: pointer;
 }
 
-.logo-text{
+.logo-text {
     color: white;
     font-weight: bold;
     line-height: 7rem;
@@ -50,7 +64,6 @@ html {
 }
 
 .menu a {
-    text-decoration: none;
     line-height: 7rem;
     display: block;
 }
