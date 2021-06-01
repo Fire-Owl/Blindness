@@ -1,24 +1,24 @@
-body{
+body {
     background-color: black;
 }
 
-.landing-main-container{
-    display : flex;
+.landing-main-container {
+    display: flex;
     height: 90vh;
     justify-content: center;
     align-items: center;
-    color : white;
+    color: white;
     font-family: "Gotham";
 }
 
-.landing-main-container-text{
+.landing-main-container-text {
     font-size: 2rem;
-    width : 100rem;
+    width: 100rem;
     line-height: 3.2rem;
-    text-align:justify;
-    text-align-last:center;
+    text-align: justify;
+    text-align-last: center;
 }
 
 .landing-main-container-text-padding {
- padding: 2rem;
+    padding: 2rem;
 }
