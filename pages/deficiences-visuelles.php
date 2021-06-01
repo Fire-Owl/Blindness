@@ -35,19 +35,4 @@
         </div>
     </div>
 </div>
-<div class="main__footer">
-    <ul>
-        <a href="#">
-            <li>Suivant</li>
-        </a>
-        <a href="notions.php">
-            <li>Précédent</li>
-        </a>
-        <a href="#">
-            <li>Retour à la navigation</li>
-        </a>
-    </ul>
-</div>
-</body>
-
-</html>
+<?php include "../includes/footer.php";?>

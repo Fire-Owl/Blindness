@@ -29,25 +29,10 @@
             <h2>Accessibilité</h2>
         </div>
         <div class="main__article--bottom-left">
-            <p>Elle peut se traduire par l’accès à <span>tous</span> pour tous. Dans notre cadre, elle consiste à mettre
+            <p>Elle peut se traduire par l’accès à <span class="red">tous</span> pour tous. Dans notre cadre, elle consiste à mettre
                 les personnes en situation de handicap au même pied d'égalité que les autres. Pour cela on essaie de
                 réduire au minimum les inégalités liées à l'environnement. </p>
         </div>
     </div>
 </div>
-<div class="main__footer">
-    <ul>
-        <a href="deficiences-visuelles.php">
-            <li>Suivant</li>
-        </a>
-        <a href="#">
-            <li>Précédent</li>
-        </a>
-        <a href="#">
-            <li>Retour à la navigation</li>
-        </a>
-    </ul>
-</div>
-</body>
-
-</html>
+<?php include "../includes/footer.php";?>

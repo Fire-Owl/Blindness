@@ -8,8 +8,11 @@
     <meta name="description"
         content="Un site sur l'accessibilité optimisé pour les malvoyants. Créé par les stagiaires de l'ACS.">
     <link rel="stylesheet" type="text/css" href="../styles/header.css">
+    <link rel="stylesheet" type="text/css" href="../styles/footer.css">
     <link rel="stylesheet" type="text/css" href="../styles/index.css">
     <link rel="stylesheet" type="text/css" href="../styles/notions.css">
+    <link rel="stylesheet" type="text/css" href="../styles/mentions.css">
+    <script src="../scripts/main.js"></script>
 </head>
 
 <body>
@@ -17,7 +20,7 @@
         <a href="index.php"><img src="../assets/logo/blindness.svg" alt="Logo du site Blindness" class="logo">
             <h1 class="logo-text noselect">Blindness</h1>
         </a>
-        <label for="toggle" class="noselect">Navigation</label>
+        <label for="toggle" class="noselect" onclick="menuHide()">Navigation</label>
         <input type="checkbox" id="toggle" />
         <div class="menu">
             <div class="nav-menu-romanum">
