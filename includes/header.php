@@ -23,9 +23,9 @@
         <label for="toggle" class="noselect" onclick="menuHide()">Navigation</label>
         <input type="checkbox" id="toggle" />
         <div class="menu">
-            <div class="nav-menu-romanum">
+            <div class="nav-menu-romanum"tabindex="0">
                 <a href="notions.php">I.</a>
-                <a href="deficiences-visuelles.php">II.</a>
+                <a href="deficiences-visuelles.php" >II.</a>
                 <a href="#">III.</a>
                 <a href="#">IV.</a>
                 <a href="#">V.</a>

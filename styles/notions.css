@@ -74,7 +74,13 @@ body {
     width: 50%;
     flex-wrap: wrap;
 }
-
+.main__article--bottom-list{
+    display: flex;
+    flex-direction: column;
+    line-height: 2rem;
+    margin-left: 2rem;
+    
+}
 @media screen and (max-width: 768px) {
     .main__article--top, .main__article--center-right, .main__article--center, .main__article--bottom-left {
         justify-content: flex-start;
