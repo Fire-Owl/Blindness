@@ -3,5 +3,6 @@
     <label for="toggle" class="noselect">Navigation</label>
         <input type="checkbox" id="toggle" />
 </footer>
+
 </body>
 </html>

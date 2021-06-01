@@ -12,7 +12,7 @@
     <link rel="stylesheet" type="text/css" href="../styles/index.css">
     <link rel="stylesheet" type="text/css" href="../styles/notions.css">
     <link rel="stylesheet" type="text/css" href="../styles/mentions.css">
-    <script src="../scripts/main.js"></script>
+    <link rel="stylesheet" type="text/css" href="../styles/outils.css"> 
 </head>
 
 <body>
@@ -28,12 +28,14 @@
                 <a href="deficiences-visuelles.php">II.</a>
                 <a href="#">III.</a>
                 <a href="#">IV.</a>
+                <a href="#">V.</a>
             </div>
             <div class="nav-menu-name">
                 <a href="notions.php">NOTIONS</a>
                 <a href="deficiences-visuelles.php">DEFICIENCES VISUELLES</a>
-                <a href="#">OUTILS</a>
-                <a href="#">BONNES PRATIQUES</a>
+                <a href="outils.php">OUTILS</a>
+                <a href="bonnes-pratiques.php">BONNES PRATIQUES</a>
+                <a href="statistiques.php">STATISTIQUES</a>
             </div>
         </div>
     </div>

@@ -1,29 +1,6 @@
-
-@font-face {
-    font-family: "Gotham-Light";
-    src: url("fonts/Gotham-Light.otf") format("opentype");
-    }
-
-@font-face {
-    font-family: "Gotham-Book";
-    src: url("fonts/Gotham-Book.otf") format("opentype");
-    }
-
-@font-face {
-    font-family: "Gotham-Medium";
-    src: url("fonts/Gotham-Medium.otf") format("opentype");
-    }
-
-@font-face {
-    font-family: "Gotham-Bold";
-    src: url("fonts/Gotham-Bold.otf") format("opentype");
-    }
-
-    
 body{
     background-color: black;
     color: white;
-    font-family: "Gotham-Book";
     background-image: url(/Blindness/assets/pictures/blindfolded_girl.jpg);
     background-position: center;
     background-repeat: no-repeat;
@@ -36,6 +13,7 @@ span{
     display: flex;
     flex-direction: column;
     margin: 5% 15%;
+    font-family: "Gotham", sans-serif;
     }
     
 .main__title{
@@ -44,7 +22,6 @@ span{
     text-transform: uppercase;
     display: flex;
     justify-content: flex-start;
-    font-family: "Gotham-Bold";
     }
     
 .main__article--top{
@@ -53,12 +30,11 @@ span{
     }
 .main__article--title{
     font-size: 1.5rem;
-    font-family: "Gotham-Light";
+   
     }
     
 .main__article--top-left{
     width: 50%;
-    font-family: "Gotham-Light";
     line-height: 1.5em;
     }
 
