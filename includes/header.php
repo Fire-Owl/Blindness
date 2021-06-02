@@ -16,6 +16,7 @@
 </head>
 
 <body>
+    <nav>
     <div class="nav">
         <a href="index.php"><img src="../assets/logo/blindness.svg" alt="Logo du site Blindness" class="logo">
             <h1 class="logo-text noselect">Blindness</h1>
@@ -39,3 +40,4 @@
             </div>
         </div>
     </div>
+</nav>
