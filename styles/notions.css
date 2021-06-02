@@ -16,6 +16,9 @@ body {
     line-height: 2.4rem;
     font-size: 1.6rem;
     font-family: "Gotham", sans-serif;
+}
+
+.bg1 {
     background-image: url(/Blindness/assets/pictures/weelchair\ \(heavy\).png);
     background-position: center;
     background-repeat: no-repeat;
@@ -57,9 +60,16 @@ body {
     width: 50%;
 }
 
+    
+.main__article--top-left{
+    width: 50%;
+    }
+
 .main__article--title {
     font-size: 2.4rem;
-    margin-bottom: 1.6rem;
+    margin-top: 4rem;
+    margin-bottom: 2.4rem;
+    line-height : 4rem;
     flex-wrap: wrap;
 }
 
@@ -75,21 +85,20 @@ body {
     flex-wrap: wrap;
 }
 
+.main__article--bottom-list{
+    display: flex;
+    flex-direction: column;
+    margin-left: 2rem;
+    
+}
+
 @media screen and (max-width: 768px) {
-    .main__article--top, .main__article--center-right, .main__article--center, .main__article--bottom-left {
+    .main__article--top, .main__article--center-right, .main__article--center, .main__article--bottom-left, .main__article--top-left {
         justify-content: flex-start;
         width: 100%;
     }
 }
 
-.main__footer {
-    display: flex;
-    justify-content: center;
-    margin-top: 5vh;
-    margin-bottom: 5vh;
-    font-family: "Gotham", sans-serif;
-    font-size: 1.6rem;
-}
 
 ul {
     display: flex;
@@ -100,13 +109,4 @@ li {
     display: flex;
     flex-direction: column;
     margin: 0 1.6rem;
-}
-
-a {
-    text-decoration: none;
-    color: white;
-}
-
-span {
-    color: var(--third-color);
 }

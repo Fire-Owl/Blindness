@@ -9,6 +9,7 @@
 
 a {
     text-decoration: none;
+    color: white;
 }
 
 a:hover {
@@ -114,7 +115,9 @@ label {
     position: relative;
     z-index: 1;
 }
-
+label:hover {
+    color: #ed1d27;
+}
 #toggle {
     display: none;
 }
