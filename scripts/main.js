@@ -1,8 +1,18 @@
 //NAVIGATION
 let nav = document.getElementById("nav");
+let toggle = document.getElementById("toggle");
+
 nav.addEventListener("click", () => {
-    if (document.getElementById("toggle").checked === false) document.getElementById("toggle").checked = true;
-    else document.getElementById("toggle").checked = false;
+    if (toggle.checked === false)toggle.checked = true;
+    else toggle.checked = false;
+
+});
+
+noScroll = () => window.scrollTo(0, 0);
+
+toggle.addEventListener("change", () =>{
+    if (toggle.checked === true) window.addEventListener("scroll", noScroll);
+    else window.removeEventListener('scroll', noScroll); 
 });
 
 //STATISTIQUES
