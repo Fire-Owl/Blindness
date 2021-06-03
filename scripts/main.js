@@ -2,17 +2,24 @@
 let nav = document.getElementById("nav");
 let toggle = document.getElementById("toggle");
 
-nav.addEventListener("click", () => {
-    if (toggle.checked === false)toggle.checked = true;
-    else toggle.checked = false;
-
-});
-
 noScroll = () => window.scrollTo(0, 0);
 
 toggle.addEventListener("change", () =>{
-    if (toggle.checked === true) window.addEventListener("scroll", noScroll);
-    else window.removeEventListener('scroll', noScroll); 
+    if (toggle.checked === true) {
+        window.addEventListener("scroll", noScroll);
+    } else { 
+        window.removeEventListener('scroll', noScroll)
+    }; 
+});
+
+nav.addEventListener("click", () => {
+    if (toggle.checked === false){
+        toggle.checked = true;
+        window.addEventListener("scroll", noScroll);
+    } else {
+        toggle.checked = false;
+    }
+
 });
 
 //STATISTIQUES
