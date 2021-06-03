@@ -9,12 +9,12 @@
             if($current=='statistiques') echo '<a class="footer-link" href="bonnes-pratiques.php">Précédent</a> <a class="footer-link" href="index.php">Accueil</a>';
             if($current=='mentions') echo '<a class="footer-link" href="index.php">Accueil</a>';
         ?>
-        <label for="toggle" class="noselect" tabindex="0">Navigation</label>
-        <input type="checkbox" id="toggle" />
+        <a href="#" id="nav" class="footer-link">Navigation</a>
     </div>
     <a href="mentions.php" class="footer-link">Mentions légales</a>
 </footer>
 <script src="https://cdn.jsdelivr.net/npm/chart.js@3.2.1/dist/chart.min.js"></script>
 <script src="../scripts/main.js"></script>
 </body>
+
 </html>

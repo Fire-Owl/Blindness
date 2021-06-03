@@ -1,3 +1,11 @@
+//NAVIGATION
+let nav = document.getElementById("nav");
+nav.addEventListener("click", () => {
+    if (document.getElementById("toggle").checked === false) document.getElementById("toggle").checked = true;
+    else document.getElementById("toggle").checked = false;
+});
+
+//STATISTIQUES
 const ctxBrowser = document.getElementById('browser').getContext('2d');
 let chartBrowser = new Chart(ctxBrowser, {
     type: 'doughnut',
@@ -38,10 +46,10 @@ const ctxSwitchTools = document.getElementById('switch-tools').getContext('2d');
 let chartSwitchTools = new Chart(ctxSwitchTools, {
     type: 'polarArea',
     data: {
-    labels : ['Oui', 'Non','NonRenseigné'],
-        datasets:[{
-            labels : 'Utilisation du lecteur d\'écran différent du travail et de la maison',
-            data : [203,237,70],
+        labels: ['Oui', 'Non', 'NonRenseigné'],
+        datasets: [{
+            labels: 'Utilisation du lecteur d\'écran différent du travail et de la maison',
+            data: [203, 237, 70],
             backgroundColor: [
                 'rgba(255, 99, 132)',
                 'rgba(75, 192, 192)',
@@ -55,9 +63,9 @@ const ctxTypeScreen = document.getElementById('type-screen').getContext('2d');
 let chartTypeScreen = new Chart(ctxTypeScreen, {
     type: 'line',
     data: {
-        labels: ['Ecran NVDA', 'Ecran Jaws', 'Ecran Orca', 'Ecran ZoomText', 'Ecran ChromeVox','Autres'],
+        labels: ['Ecran NVDA', 'Ecran Jaws', 'Ecran Orca', 'Ecran ZoomText', 'Ecran ChromeVox', 'Autres'],
         datasets: [{
-            data: [190, 141,14,34,0,133],
+            data: [190, 141, 14, 34, 0, 133],
             backgroundColor: [
                 'rgba(255, 99, 132)',
                 'rgba(54, 162, 235)',
@@ -74,9 +82,9 @@ const ctxPhoneTools = document.getElementById('phone-tools').getContext('2d');
 let chartPhoneTools = new Chart(ctxPhoneTools, {
     type: 'radar',
     data: {
-        labels: ['Android', 'Iphone','Nokia','WindowsPhone','Autre', 'NonRenseigné'],
+        labels: ['Android', 'Iphone', 'Nokia', 'WindowsPhone', 'Autre', 'NonRenseigné'],
         datasets: [{
-            data: [69,237,24,16,1,148],
+            data: [69, 237, 24, 16, 1, 148],
             backgroundColor: [
                 'rgba(255, 99, 132, 0.2)',
                 'rgba(54, 162, 235, 0.2)',
