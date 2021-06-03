@@ -6,7 +6,8 @@
             if($current=='deficiences-visuelles') echo '<a class="footer-link" href="notions.php">Précédent</a> <a class="footer-link" href="outils.php">Suivant</a>'; 
             if($current=='outils') echo '<a class="footer-link" href="deficiences-visuelles.php">Précédent</a> <a class="footer-link" href="bonnes-pratiques.php">Suivant</a>'; 
             if($current=='bonnes-pratiques') echo '<a class="footer-link" href="outils.php">Précédent</a> <a class="footer-link" href="statistiques.php">Suivant</a>'; 
-            if($current=='statistiques') echo '<a class="footer-link" href="bonnes-pratiques.php">Précédent</a> <a class="footer-link" href="index.php">Accueil</a>'
+            if($current=='statistiques') echo '<a class="footer-link" href="bonnes-pratiques.php">Précédent</a> <a class="footer-link" href="index.php">Accueil</a>';
+            if($current=='mentions') echo '<a class="footer-link" href="index.php">Accueil</a>';
         ?>
         <label for="toggle" class="noselect" tabindex="0">Navigation</label>
         <input type="checkbox" id="toggle" />

@@ -8,6 +8,7 @@
                              if($current=='outils') echo 'Outils';
                              if($current=='bonnes-pratiques') echo 'Bonnes pratiques';
                              if($current=='statistiques') echo 'Statistiques';
+                             if($current=='mentions') echo 'Mentions légales';
                         ?>
     </title>
     <link rel="icon" href="../favicon.ico" />
@@ -41,7 +42,7 @@
             </div>
             <div class="nav-menu-name">
                 <a href="notions.php">NOTIONS</a>
-                <a href="deficiences-visuelles.php">DEFICIENCES VISUELLES</a>
+                <a href="deficiences-visuelles.php">DÉFICIENCES VISUELLES</a>
                 <a href="outils.php">OUTILS</a>
                 <a href="bonnes-pratiques.php">BONNES PRATIQUES</a>
                 <a href="statistiques.php">STATISTIQUES</a>

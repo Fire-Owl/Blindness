@@ -1,4 +1,5 @@
-<?php include "../includes/header.php";?>
+<?php $current ='mentions';
+include "../includes/header.php";?>
 <main class="mentions" id="hideToggle">
     <div class="main__title">
         <h1 tabindex="0">Mentions Légales</h1>
