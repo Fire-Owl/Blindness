@@ -5,7 +5,7 @@ include "../includes/header.php";?>
         <div class="main__title">
             <h1 tabindex="0">V. Statistiques</h1>
         </div>
-
+<!-- graphiques -->
         <div id="charts">
             
             <h2 class="charts__title" tabindex="0">Navigateurs</h2>
