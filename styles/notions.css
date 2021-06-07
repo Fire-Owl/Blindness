@@ -25,6 +25,13 @@ body {
     background-size: contain;
 }
 
+.bg3{
+    background-image: url(/Blindness/assets/pictures/blindfolded_girl\ \(heavy\).png);
+ background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
 .main__title {
     color: red;
     font-size: 3.2rem;

@@ -1,6 +1,6 @@
 <?php $current="deficiences-visuelles";
 include "../includes/header.php";?>
-<div class="main bg1">
+<div class="main bg3">
     <div class="main__title">
         <h1 tabindex="0">II. Déficiences visuelles</h1>
     </div>

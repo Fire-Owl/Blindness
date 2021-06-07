@@ -13,7 +13,7 @@ include "../includes/header.php";?>
                 utilisateur.</p>
             <p class="landing-main-container-text-padding" tabindex="0">Sachez que le site est entièrement parcourable a l'audio, il
                 a été conçu pour cet usage. Nous vous recommandons vivement l'expérience. Pour cela téléchargez <a
-                    class="red" href="https://support.freedomscientific.com/Downloads/JAWS" tabindex="0">JAWS</a>, appuyez sur la
+                    class="red" href="https://support.freedomscientific.com/Downloads/JAWS" tabindex="0" target="_blank">JAWS</a>, appuyez sur la
                 touche F7 de votre clavier et naviguez avec la touche tab et les flèches du clavier.</p>
         </div>
     </div>
